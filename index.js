@@ -9,8 +9,8 @@ const server = http.createServer(app);
 const conexionDB = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Rz_1002154588',
-  database: 'diseno_bd',
+  password: '123456',
+  database: 'ubicaciones',
 });
 
 conexionDB.connect((error) => {
