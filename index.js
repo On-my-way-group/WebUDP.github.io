@@ -61,7 +61,7 @@ app.get('/events', (req, res) => {
         }
       }
     });
-  }, 3000);
+  }, 1);
 
   req.on('close', () => {
     clearInterval(interval);
